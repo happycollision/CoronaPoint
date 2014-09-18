@@ -8,11 +8,11 @@
 defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR);
 
 defined('SITE_ROOT') ? null : 
-	define('SITE_ROOT', DS.'Applications'.DS.'MAMP'.DS.'htdocs'.DS.'coronabuild');
+	define('SITE_ROOT', DS.'Users'.DS.'Don'.DS.'Sites'.DS.'CoronaPoint');
 
 defined('LIB_PATH') ? null : define('LIB_PATH', SITE_ROOT.DS.'private');
 
-defined('URL') ? null :define('URL', 'http://localhost/coronabuild/public');
+defined('URL') ? null :define('URL', 'http://local.corona.happycollision.com');
 
 defined('TEMPLATE_PATH') ? null :define('TEMPLATE_PATH', SITE_ROOT.DS.'public'.DS.'templates'.DS );
 
